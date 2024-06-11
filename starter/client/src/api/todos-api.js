@@ -63,6 +63,7 @@ export async function getUploadUrl(idToken, todoId) {
       }
     }
   )
+  console.log("todo-api " + JSON.stringify(todoId))
   return response.data.uploadUrl
 }
 
